@@ -1,0 +1,10 @@
+.form-control:focus + .form-text {
+  display: block;
+}
+.form-control + .form-text {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  transition: all 0.3s ease;
+}
